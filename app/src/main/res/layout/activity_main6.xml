@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dde3e7">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView2"
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        app:cardElevation="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/bgProfileImageView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/fondo3"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop" />
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@+id/cardView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/cardView2"
+        app:layout_constraintVertical_bias="0.050000012">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="@string/canjear"
+                android:textColor="@color/verdebonito"
+                android:textSize="26sp" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="181dp"
+                android:layout_height="141dp"
+                android:layout_gravity="center"
+                android:layout_margin="1dp"
+                app:srcCompat="@drawable/brocopoints" />
+
+            <LinearLayout
+                android:layout_width="251dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="85dp"
+                    android:layout_height="wrap_content"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:text="Tienes:"
+                    android:textColor="@color/verdebonito"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/brocotxt"
+                    android:layout_width="54dp"
+                    android:layout_height="wrap_content"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:textColor="@color/verdebonito"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:elevation="15dp"
+                    android:gravity="center"
+                    android:text="BrocoPoints"
+                    android:textColor="@color/verdebonito"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        app:cardCornerRadius="20dp"
+        android:layout_marginTop="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.13999999">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="257dp"
+                android:layout_marginTop="15dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_horizontal"
+                android:text="Para canjear tus Brocopoints, Presiona sobre alguna de estas dos opciones."
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/descuentosbtn"
+                    android:layout_width="136dp"
+                    android:layout_height="125dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/botones"
+                    android:scaleType="fitEnd"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/descuento1"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="567dp" />
+
+
+                <ImageButton
+                    android:id="@+id/creditosbtn"
+                    android:layout_width="136dp"
+                    android:layout_height="125dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:background="@drawable/botones"
+                    android:scaleType="centerCrop"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:srcCompat="@drawable/creditos"
+                    tools:ignore="MissingConstraints"
+                    tools:layout_editor_absoluteY="567dp" />
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="289dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="  Descuentos               Créditos "
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                app:layout_constraintStart_toStartOf="parent"
+                tools:layout_editor_absoluteY="249dp" />
+            <TextView
+                android:id="@+id/restablecertxt"
+                android:layout_width="wrap_content"
+                android:layout_height="29dp"
+                android:layout_marginTop="28dp"
+                android:text="@string/guardar"
+                android:textSize="18dp"
+                android:layout_gravity="center"
+                tools:ignore="HardcodedText" />
+
+            <Button
+                android:id="@+id/btnRegresar"
+                android:layout_width="238dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/boton1"
+                android:backgroundTint="@null"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:backgroundTintMode="multiply"
+                android:elevation="26dp"
+                android:text="@string/Regresar"
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="ButtonStyle" />
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.brocoapp.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.brocoapp.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.brocoapp.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/mainActivity2"
+        android:name="com.example.brocoapp.MainActivity2"
+        android:label="activity_main2"
+        tools:layout="@layout/activity_main2" />
+    <activity
+        android:id="@+id/mainActivity4"
+        android:name="com.example.brocoapp.MainActivity4"
+        android:label="activity_main4"
+        tools:layout="@layout/activity_main4" />
+    <activity
+        android:id="@+id/mainActivity5"
+        android:name="com.example.brocoapp.MainActivity5"
+        android:label="activity_main5"
+        tools:layout="@layout/activity_main5" />
+    <activity
+        android:id="@+id/mainActivity6"
+        android:name="com.example.brocoapp.MainActivity6"
+        android:label="activity_main6"
+        tools:layout="@layout/activity_main6" />
+    <activity
+        android:id="@+id/mainActivity7"
+        android:name="com.example.brocoapp.MainActivity7"
+        android:label="activity_main7"
+        tools:layout="@layout/activity_main7" />
+    <activity
+        android:id="@+id/recomendaciones"
+        android:name="com.example.brocoapp.recomendaciones"
+        android:label="activity_recomendaciones"
+        tools:layout="@layout/activity_recomendaciones" />
+</navigation>

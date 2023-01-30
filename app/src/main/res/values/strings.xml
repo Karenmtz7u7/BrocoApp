@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">BrocoAPP</string>
+
+    <string name="image_description">description</string>
+
+    <string name="title_activity_main3">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="todo">TODO</string>
+    <string name="iniciarsesion">INICIAR SESIÓN</string>
+    <string name="cuenta">¿Aún no tienes una cuenta?</string>
+    <string name="Entrar">ENTRAR</string>
+    <string name="cancelar">CANCELAR</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="verify">Confirmar Contraseña</string>
+    <string name="restablecer">¿Olvidaste tu contraseña?</string>
+    <string name="crear">Crear cuenta</string>
+    <string name="registrar">REGISTRAR</string>
+    <string name="nombre">REGISTRAR</string>
+    <string name="registrarusuario">REGISTRAR USUARIO</string>
+    <string name="respass">Restablecer contraseña</string>
+    <string name="name">Nombre</string>
+    <string name="canjear">Canjear Brocopoints</string>
+    <string name="selecciona">Selecciona una opción</string>
+    <string name="guardar">¿Deseas guardarlos para después?</string>
+    <string name="Regresar">REGRESAR</string>
+    <string name="info">Información del Alimento</string>
+    <string name="history">Historial de canje</string>
+</resources>

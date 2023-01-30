@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/recomendaciones"
+            android:name="com.example.brocoapp.recomendaciones"
+            android:label="activity_recomendaciones"
+            tools:layout="@layout/activity_recomendaciones"
+            android:title="Perfil"
+            android:icon="@drawable/avatar1"/>
+
+
+        <item
+            android:id="@+id/mainActivity7"
+            android:name="com.example.brocoapp.MainActivity7"
+            android:label="activity_main7"
+            tools:layout="@layout/activity_main7"
+            android:title="Lector QR"
+            android:icon="@drawable/qrlogo"/>
+        <item
+            android:id="@+id/mainActivity6"
+            android:name="com.example.brocoapp.MainActivity6"
+            android:label="activity_main6"
+            tools:layout="@layout/activity_main6"
+            android:title="Brocopoints"
+            android:icon="@drawable/coins"
+            android:iconTint="@null"/>
+        <item
+            android:id="@+id/mainActivity2"
+            android:name="com.example.brocoapp.MainActivity2"
+            android:label="activity_main2"
+            tools:layout="@layout/activity_main2"
+            android:title="Historial de alimentos"
+            android:icon="@drawable/historial"/>
+        <item
+            android:id="@+id/mainActivity5"
+            android:name="com.example.brocoapp.MainActivity5"
+            android:label="activity_main5"
+            tools:layout="@layout/activity_main5"
+            android:title="Historial de canje"
+            android:icon="@drawable/canje"/>
+
+    </group>
+</menu>

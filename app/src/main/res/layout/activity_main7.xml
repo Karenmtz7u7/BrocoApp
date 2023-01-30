@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/platillo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:transitionGroup="true"
+    tools:context=".MainActivity7">
+
+    <TextView
+        android:layout_width="338dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:elevation="15dp"
+        android:gravity="center"
+        android:text="@string/info"
+        android:textColor="@color/verdebonito"
+        android:textSize="28sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="351dp"
+        android:layout_height="415dp"
+        android:layout_margin="10dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="246dp">
+
+        <LinearLayout
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/platillo"></ImageView>
+
+            <TextView
+                android:layout_width="75dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="Platillo:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtNombre"
+                android:layout_width="144dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/verdebonito"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="316dp"
+            android:layout_height="103dp"
+            android:layout_marginVertical="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/calculadoradecalorias"></ImageView>
+
+            <TextView
+                android:layout_width="83dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="Calorías:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtCalorias"
+                android:layout_width="142dp"
+                android:layout_height="36dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/verdebonito"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/sellos"></ImageView>
+
+            <TextView
+                android:layout_width="74dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="Sellos:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtSellos"
+                android:layout_width="170dp"
+                android:layout_height="36dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/verdebonito"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="316dp"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="4dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                app:srcCompat="@drawable/brocopoints"></ImageView>
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:text="BrocoPoints:"
+                android:textColor="@color/black"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtBrocopoints"
+                android:layout_width="103dp"
+                android:layout_height="37dp"
+                android:gravity="center_vertical"
+                android:textColor="@color/verdebonito"
+                android:textSize="18dp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:text="Brocopoints acomulados:"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txtPuntos"
+            android:layout_width="59dp"
+            android:layout_height="37dp"
+            android:gravity="center_vertical"
+            android:textColor="@color/verdebonito"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="357dp"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="20dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/registrar"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            tools:ignore="ButtonStyle" />
+
+        <Button
+            android:id="@+id/btnCancelar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/cancelar"
+            android:textColor="@color/coffe"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:backgroundTint="@null"
+            tools:ignore="ButtonStyle" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
